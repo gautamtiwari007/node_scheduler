@@ -1,0 +1,3 @@
+I have used express.js and node-schedule packages. The solution is very simple we just need to loop into the list of events provided extract date and time from each of the elements, schedule the event using node-schedule. The sleeping time can be provided using promises and setTimeout function.
+If we want to send data via postman we should build an event model (mongoDB) set the routers and controllers. Then send the json data using postman.
+Here I have just used a dummy array to make the implementation easier and understandable.
